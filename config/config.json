@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "b347bd46bbe7db",
+    "password": "7416aad1",
+    "database": "BK_db",
+    "host": "us-cdbr-east-03.cleardb.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "b347bd46bbe7db",
+    "password": "7416aad1",
+    "database": "b347bd46bbe7db",
+    "host": "us-cdbr-east-03.cleardb.com",
+    "dialect": "mysql"
+  }
+}
