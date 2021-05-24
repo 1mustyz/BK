@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "b347bd46bbe7db",
-    "password": "7416aad1",
-    "database": "BK_db",
-    "host": "us-cdbr-east-03.cleardb.com",
+    "username": "root",
+    "password": null,
+    "database": "railly_db",
+    "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
