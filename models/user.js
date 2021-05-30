@@ -15,12 +15,13 @@ module.exports = (sequelize, DataTypes) => {
   };
 
   User.associate = models => {
-    User.hasMany(models.Rervation);
+    User.hasMany(models.Reservation);
   }
 
   User.init({
     firstName: DataTypes.STRING,
     lastName: DataTypes.STRING,
+    email: DataTypes.STRING,
     location: DataTypes.STRING,
     dob: DataTypes.STRING,
     password: DataTypes.STRING,
